@@ -7,7 +7,7 @@ def test_function():
 
 test_function()
 
-def test_function():
+def test_function(): #вызов функции inner_function внутри функции test_function
     def inner_function():
         print("Я в области видимости функции test_function")
 
